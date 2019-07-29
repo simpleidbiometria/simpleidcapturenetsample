@@ -16,7 +16,7 @@ namespace HTXSystems.SimpleIDCaptureNetSample.WF
     {
         private WebSocket _ws;
         private string _wsURL = "ws://localhost:7001/operations/";
-        private string _apiKey = "YOUR_API_KEY";
+        private string _apiKey = "7E55393D-0B8F-49D2-8E96-E2D82BB0E4B1";
 
         public event EventHandler<SimpleIDResponseEventArgs> onSimpleIDEvent;
 
